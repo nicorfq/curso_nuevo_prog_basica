@@ -31,16 +31,16 @@ body {
 }
 
 .tarjeta-de-mokepon {
-  width: 180px;
-  height: 100px;
   background: #11468F;
-  padding: 10px;
-  box-sizing: border-box;
   border-radius: 20px;
+  box-sizing: border-box;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  height: 100px;
+  padding: 10px;
+  width: 180px;
 }
 
 .tarjeta-de-mokepon img {
@@ -80,7 +80,7 @@ input:checked + label {
   color: white;
   font-family: 'Poppins', sans-serif;
   padding: 10px;
-  width: 180px;
+  width: 80px;
 }
 
 #mensajes {
